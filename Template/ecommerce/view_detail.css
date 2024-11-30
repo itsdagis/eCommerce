@@ -1,0 +1,136 @@
+/* General Reset */
+body, h1, h2, h3, p, a, button, img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+}
+
+.header-container .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header-container .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-container nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.header-container nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Product Detail Section */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Image Container */
+.product-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.image-row img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product-detail {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-detail h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.product-detail p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.product-detail b {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    width: 200px;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-container p {
+    font-size: 0.9rem;
+}

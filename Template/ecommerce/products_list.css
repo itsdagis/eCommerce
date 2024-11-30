@@ -1,0 +1,169 @@
+/* General Reset */
+body, h1, h2, h3, p, a, ul, li, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+}
+
+.header-container .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header-container .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header-container nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.header-container nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Main Section */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Search Bar */
+main input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Category Dropdown */
+main section {
+    margin-bottom: 20px;
+}
+
+main section option {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+/* Product Grid */
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+main div h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+main div p {
+    font-size: 1rem;
+    color: #555;
+}
+
+main div a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+main div a:hover {
+    background-color: #0056b3;
+}
+
+main div button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+main div button:hover {
+    background-color: #218838;
+}
+
+/* Pagination Links */
+main div:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+main div:last-child a {
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+main div:last-child a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .footer-container p {
+    font-size: 0.9rem;
+}
