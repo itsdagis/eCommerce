@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     padding: 15px 20px;
 }
@@ -92,13 +92,13 @@ form input[type="tel"] {
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="tel"]:focus {
-    border-color: #007BFF;
+    border-color: #2D3E50;
     outline: none;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -106,4 +106,29 @@ footer {
 
 footer .footer-container p {
     font-size: 0.9rem;
+}
+/* Social Media Styles */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+    opacity: 0.7;
+}
+.header-container {
+    position: sticky;
+    top: 0;
+    background-color: #2D3E50;
+    z-index: 100;
 }

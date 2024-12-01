@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     padding: 15px 20px;
 }
@@ -103,12 +103,12 @@ main {
 
 .product-detail b {
     font-weight: bold;
-    color: #007BFF;
+    color: black;
 }
 
 button {
     padding: 12px 20px;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -120,12 +120,10 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2D3E50;
 }
-
-/* Footer Styles */
 footer {
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -134,3 +132,10 @@ footer {
 footer .footer-container p {
     font-size: 0.9rem;
 }
+.header-container {
+    position: sticky;
+    top: 0;
+    background-color: #2D3E50;
+    z-index: 100;
+}
+

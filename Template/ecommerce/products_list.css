@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     padding: 15px 20px;
 }
@@ -107,7 +107,7 @@ main div p {
 main div a {
     text-decoration: none;
     color: white;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     padding: 8px 12px;
     border-radius: 5px;
     display: inline-block;
@@ -116,7 +116,7 @@ main div a {
 }
 
 main div a:hover {
-    background-color: #0056b3;
+    background-color: #2D3E50;
 }
 
 main div button {
@@ -143,22 +143,22 @@ main div:last-child {
 }
 
 main div:last-child a {
-    text-decoration: none;
-    color: #007BFF;
-    border: 1px solid #007BFF;
+    text-decoration: color white;
+    color: white;
+    border: 1px soli;
     padding: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 main div:last-child a:hover {
-    background-color: #007BFF;
+    background-color: black;
     color: white;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -166,4 +166,29 @@ footer {
 
 footer .footer-container p {
     font-size: 0.9rem;
+}
+/* Social Media Styles */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+    opacity: 0.7;
+}
+.header-container {
+    position: sticky;
+    top: 0;
+    background-color: #2D3E50;
+    z-index: 100;
 }

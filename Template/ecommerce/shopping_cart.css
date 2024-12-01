@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     padding: 15px 20px;
 }
@@ -52,7 +52,7 @@ body {
 .header-container nav ul li ul {
     display: none;
     position: absolute;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     padding: 10px;
 }
 
@@ -117,7 +117,7 @@ input[type="number"] {
 
 button {
     padding: 10px 15px;
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -127,7 +127,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color:#2D3E50;
 }
 
 /* Cart Summary */
@@ -139,12 +139,12 @@ h3 {
 .total-amount {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #007BFF;
+    color: #2D3E50;
 }
 
 .proceedtocheckout {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #2D3E50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -155,12 +155,12 @@ h3 {
 }
 
 .proceedtocheckout:hover {
-    background-color: #218838;
+    background-color: #2D3E50;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #007BFF;
+    background-color: #2D3E50;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -168,4 +168,10 @@ footer {
 
 footer .footer-container p {
     font-size: 0.9rem;
+}
+.header-container {
+    position: sticky;
+    top: 0;
+    background-color: #2D3E50;
+    z-index: 100;
 }
